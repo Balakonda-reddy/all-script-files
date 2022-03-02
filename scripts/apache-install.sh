@@ -12,5 +12,9 @@ systemctl enable httpd 
 systemctl start httpd
 
 # this is testing 1
+<<<<<<< HEAD
 # this is testing 3
 # this is testing 4
+=======
+# this is testing 2
+>>>>>>> 6598c0712369768a5824f805d53241f53f4e52ad
