@@ -1,4 +1,13 @@
+MAVEN
+--------------
+cd /opt
+wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.zip
+unzip apache-maven-3.8.5-bin.zip
+mv apache-maven-3.8.5 maven
+cd maven/bin/mvn
 
+jenkins
+------------
 yum update -y
 yum install git -y
 amazon-linux-extras install epel -y
